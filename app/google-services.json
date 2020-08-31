@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "776097979460",
+    "firebase_url": "https://klcovid-tracker.firebaseio.com",
+    "project_id": "klcovid-tracker",
+    "storage_bucket": "klcovid-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776097979460:android:8b4eeeb3e0a1ee75767011",
+        "android_client_info": {
+          "package_name": "com.gapps.klcovidtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776097979460-m94mtac8rn09voun0ifapulelh0h2357.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5QM3aZxl7qZP_MEOZmAkzNyMniab0WBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776097979460-m94mtac8rn09voun0ifapulelh0h2357.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
