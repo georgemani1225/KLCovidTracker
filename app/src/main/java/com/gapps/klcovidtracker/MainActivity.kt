@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         AppUpdater(this)
             .setDisplay(Display.DIALOG)
             .setUpdateFrom(UpdateFrom.GITHUB)
-            .setGitHubUserAndRepo("georgemani1225", "KLCovid Tracker")
+            .setGitHubUserAndRepo("georgemani1225", "KLCovidTracker")
             .setTitleOnUpdateAvailable("New Update Available!")
             .setContentOnUpdateAvailable("Check out the latest version available of app!")
             .setButtonUpdate("Update")
