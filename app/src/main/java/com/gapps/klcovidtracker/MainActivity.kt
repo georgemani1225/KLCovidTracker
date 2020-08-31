@@ -29,8 +29,10 @@ class MainActivity : AppCompatActivity() {
             .setUpdateFrom(UpdateFrom.GITHUB)
             .setGitHubUserAndRepo("georgemani1225", "KLCovid Tracker")
             .setTitleOnUpdateAvailable("New Update Available!")
+            .setContentOnUpdateAvailable("Check out the latest version available of app!")
             .setButtonUpdate("Update")
             .setButtonDismiss("Later")
+            .setButtonDoNotShowAgain("")
             .start()
 
         val retrofit = Retrofit.Builder()
