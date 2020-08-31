@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
         myCall.enqueue(object: Callback<CaseResponse>{
             override fun onFailure(call: Call<CaseResponse>, t: Throwable) {
-                Log.e("ERROR", t.message.toString())
+                Log.e("Error", t.message.toString())
             }
 
             override fun onResponse(call: Call<CaseResponse>, response: Response<CaseResponse>) {
