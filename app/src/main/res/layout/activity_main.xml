@@ -359,7 +359,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTvm"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -540,7 +539,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKlm"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -581,7 +579,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Pathanamthitta"
+                            android:text="Alappuzha"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -721,7 +719,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcAlp"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -762,7 +759,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Alappuzha"
+                            android:text="Pathanamthitta"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -902,7 +899,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPtm"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -1083,7 +1079,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKtm"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -1264,7 +1259,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcIdk"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -1445,7 +1439,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcEkm"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -1626,7 +1619,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTrs"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -1667,7 +1659,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Thrissur"
+                            android:text="Palakkad"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -1807,7 +1799,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPkd"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -1848,7 +1839,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Thrissur"
+                            android:text="Malappuram"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -2029,7 +2020,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Thrissur"
+                            android:text="Kozhikode"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -2169,7 +2160,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKzd"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -2210,7 +2200,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Thrissur"
+                            android:text="Wayanad"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -2350,7 +2340,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcWnd"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -2391,7 +2380,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Thrissur"
+                            android:text="Kannur"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -2531,7 +2520,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKnr"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -2572,7 +2560,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:text="Thrissur"
+                            android:text="Kasargod"
                             android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -2731,6 +2719,11 @@
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
             </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\n" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>
