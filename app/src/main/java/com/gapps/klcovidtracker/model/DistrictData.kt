@@ -15,6 +15,21 @@ data class DistrictData(
     @SerializedName("Kottayam")
     val kottayam: Kottayam,
     @SerializedName("Idukki")
-    val idukki: Idukki
-
+    val idukki: Idukki,
+    @SerializedName("Ernakulam")
+    val ernakulam: Ernakulam,
+    @SerializedName("Thrissur")
+    val thrissur: Thrissur,
+    @SerializedName("Palakkad")
+    val palakkad: Palakkad,
+    @SerializedName("Malappuram")
+    val malappuram: Malappuram,
+    @SerializedName("Kozhikode")
+    val kozhikode: Kozhikode,
+    @SerializedName("Wayanad")
+    val wayanad: Wayanad,
+    @SerializedName("Kannur")
+    val kannur: Kannur,
+    @SerializedName("Kasaragod")
+    val kasaragod: Kasaragod
 )

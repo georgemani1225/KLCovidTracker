@@ -194,7 +194,7 @@
                 android:alignmentMode="alignMargins"
                 android:columnCount="1"
                 android:columnOrderPreserved="false"
-                android:rowCount="3">
+                android:rowCount="14">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardTvm"
@@ -219,9 +219,9 @@
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Thiruvanathapuram"
-                            android:textStyle="bold"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txtcTvm"
@@ -233,9 +233,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Confirmed"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_red"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/cdTvm"
@@ -252,12 +252,12 @@
                         <TextView
                             android:id="@+id/cTvm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/cdTvm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -270,9 +270,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Recovered"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_green"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/rdTvm"
@@ -292,8 +292,8 @@
                             android:layout_below="@+id/rdTvm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:textColor="@android:color/black"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -308,19 +308,19 @@
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Active"
                             android:textColor="@color/dark_blue"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/aTvm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtaTvm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTvm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -329,12 +329,11 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/aTvm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtTvm"
                             android:layout_marginLeft="60dp"
+                            android:layout_toRightOf="@+id/txtTvm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
-
 
 
                         <TextView
@@ -348,8 +347,8 @@
                             android:layout_toRightOf="@+id/txtcTvm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Deceased"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ddTvm"
@@ -357,8 +356,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtdTvm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcTvm"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcTvm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -366,7 +365,6 @@
 
                         <TextView
                             android:id="@+id/dTvm"
-                            android:textColor="@android:color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/ddTvm"
@@ -374,6 +372,7 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTvm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                     </RelativeLayout>
@@ -402,9 +401,9 @@
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Kollam"
-                            android:textStyle="bold"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txtcKlm"
@@ -416,9 +415,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Confirmed"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_red"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/cdKlm"
@@ -435,12 +434,12 @@
                         <TextView
                             android:id="@+id/cKlm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/cdKlm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -453,9 +452,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Recovered"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_green"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/rdKlm"
@@ -475,8 +474,8 @@
                             android:layout_below="@+id/rdKlm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:textColor="@android:color/black"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -491,19 +490,19 @@
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Active"
                             android:textColor="@color/dark_blue"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/aKlm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtaKlm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKlm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -512,8 +511,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/aKlm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcKlm"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKlm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -529,8 +528,8 @@
                             android:layout_toRightOf="@+id/txtcKlm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Deceased"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ddKlm"
@@ -538,8 +537,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtdKlm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcKlm"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKlm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -547,7 +546,6 @@
 
                         <TextView
                             android:id="@+id/dKlm"
-                            android:textColor="@android:color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/ddKlm"
@@ -555,6 +553,7 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKlm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                     </RelativeLayout>
@@ -583,9 +582,9 @@
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Pathanamthitta"
-                            android:textStyle="bold"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txtcAlp"
@@ -597,9 +596,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Confirmed"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_red"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/cdAlp"
@@ -616,12 +615,12 @@
                         <TextView
                             android:id="@+id/cAlp"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/cdAlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -634,9 +633,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Recovered"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_green"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/rdAlp"
@@ -656,8 +655,8 @@
                             android:layout_below="@+id/rdAlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:textColor="@android:color/black"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -672,19 +671,19 @@
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Active"
                             android:textColor="@color/dark_blue"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/aAlp"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtaAlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcAlp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -693,8 +692,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/aAlp"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcAlp"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcAlp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -710,8 +709,8 @@
                             android:layout_toRightOf="@+id/txtcAlp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Deceased"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ddAlp"
@@ -719,8 +718,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtdAlp"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcAlp"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcAlp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -728,7 +727,6 @@
 
                         <TextView
                             android:id="@+id/dAlp"
-                            android:textColor="@android:color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/ddAlp"
@@ -736,6 +734,7 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcAlp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                     </RelativeLayout>
@@ -764,9 +763,9 @@
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Alappuzha"
-                            android:textStyle="bold"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txtcPtm"
@@ -778,9 +777,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Confirmed"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_red"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/cdPtm"
@@ -797,12 +796,12 @@
                         <TextView
                             android:id="@+id/cPtm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/cdPtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -815,9 +814,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Recovered"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_green"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/rdPtm"
@@ -837,8 +836,8 @@
                             android:layout_below="@+id/rdPtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:textColor="@android:color/black"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -853,19 +852,19 @@
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Active"
                             android:textColor="@color/dark_blue"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/aPtm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtaPtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPtm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -874,8 +873,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/aPtm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcPtm"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcPtm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -891,8 +890,8 @@
                             android:layout_toRightOf="@+id/txtcPtm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Deceased"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ddPtm"
@@ -900,8 +899,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtdPtm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcPtm"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcPtm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -909,7 +908,6 @@
 
                         <TextView
                             android:id="@+id/dPtm"
-                            android:textColor="@android:color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/ddPtm"
@@ -917,6 +915,7 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPtm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                     </RelativeLayout>
@@ -945,9 +944,9 @@
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Kottayam"
-                            android:textStyle="bold"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txtcKtm"
@@ -959,9 +958,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Confirmed"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_red"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/cdKtm"
@@ -978,12 +977,12 @@
                         <TextView
                             android:id="@+id/cKtm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/cdKtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -996,9 +995,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Recovered"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_green"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/rdKtm"
@@ -1018,8 +1017,8 @@
                             android:layout_below="@+id/rdKtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:textColor="@android:color/black"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -1034,19 +1033,19 @@
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Active"
                             android:textColor="@color/dark_blue"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/aKtm"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtaKtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKtm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -1055,8 +1054,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/aKtm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcKtm"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKtm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -1072,8 +1071,8 @@
                             android:layout_toRightOf="@+id/txtcKtm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Deceased"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ddKtm"
@@ -1081,8 +1080,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtdKtm"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcKtm"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKtm"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -1090,7 +1089,6 @@
 
                         <TextView
                             android:id="@+id/dKtm"
-                            android:textColor="@android:color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/ddKtm"
@@ -1098,6 +1096,7 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKtm"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                     </RelativeLayout>
@@ -1126,9 +1125,9 @@
                             android:layout_gravity="start"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Idukki"
-                            android:textStyle="bold"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txtcIdk"
@@ -1140,9 +1139,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Confirmed"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_red"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/cdIdk"
@@ -1159,12 +1158,12 @@
                         <TextView
                             android:id="@+id/cIdk"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/cdIdk"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -1177,9 +1176,9 @@
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Recovered"
-                            android:textStyle="bold"
                             android:textColor="@color/dark_green"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/rdIdk"
@@ -1199,8 +1198,8 @@
                             android:layout_below="@+id/rdIdk"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:textColor="@android:color/black"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
@@ -1215,29 +1214,29 @@
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Active"
                             android:textColor="@color/dark_blue"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/aIdk"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtaIdk"
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcIdk"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/adIdk"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/aKtm"
+                            android:layout_below="@+id/aIdk"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcIdk"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcIdk"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -1253,8 +1252,8 @@
                             android:layout_toRightOf="@+id/txtcIdk"
                             android:fontFamily="@font/fira_mono_medium"
                             android:text="Deceased"
-                            android:textStyle="bold"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ddIdk"
@@ -1262,8 +1261,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/txtdIdk"
                             android:layout_gravity="start"
-                            android:layout_toRightOf="@+id/txtcIdk"
                             android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcIdk"
                             android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
@@ -1271,7 +1270,6 @@
 
                         <TextView
                             android:id="@+id/dIdk"
-                            android:textColor="@android:color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/ddIdk"
@@ -1279,6 +1277,1455 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcIdk"
                             android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardEkm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Ernakulam"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcEkm"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcEkm"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcEkm"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcEkm"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcEkm"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dEkm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddEkm"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcEkm"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Thrissur"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcTrs"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcTrs"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcTrs"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcTrs"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcTrs"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dTrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddTrs"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcTrs"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardPkd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Thrissur"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcPkd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcPkd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcPkd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcPkd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcPkd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dPkd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddPkd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcPkd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardMlp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Thrissur"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcMlp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcMlp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcMlp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcMlp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcMlp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dMlp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddMlp"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcMlp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardKzd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Thrissur"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcKzd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKzd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKzd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcKzd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKzd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dKzd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddKzd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKzd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardWnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Thrissur"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcWnd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcWnd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcWnd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcWnd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcWnd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dWnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddWnd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcWnd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardKnr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Thrissur"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcKnr"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKnr"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKnr"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcKnr"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKnr"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dKnr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddKnr"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKnr"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardKsd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/dark_blue"
+                    android:elevation="60dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txtKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Thrissur"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtcKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Confirmed"
+                            android:textColor="@color/dark_red"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cdKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtcKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_red"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/cKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cdKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtrKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Recovered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rdKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtrKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/rKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rdKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtaKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcKsd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Active"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtaKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKsd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKsd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txtdKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/adKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/txtcKsd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:text="Deceased"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ddKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtdKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKsd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/dKsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ddKsd"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="110dp"
+                            android:layout_toRightOf="@+id/txtcKsd"
+                            android:fontFamily="@font/fira_mono_medium"
+                            android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
                     </RelativeLayout>
