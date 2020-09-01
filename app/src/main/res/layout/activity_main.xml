@@ -1979,7 +1979,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcMlp"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
@@ -2700,7 +2699,6 @@
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKsd"
                             android:fontFamily="@font/fira_mono_medium"
-                            android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
 
