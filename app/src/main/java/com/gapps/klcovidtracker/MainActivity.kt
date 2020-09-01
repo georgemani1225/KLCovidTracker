@@ -88,7 +88,87 @@ class MainActivity : AppCompatActivity() {
                         caseResponse.kerala.districtData.thiruvananthapuram.recovered.toString()
                     dTvm.text =
                         caseResponse.kerala.districtData.thiruvananthapuram.deceased.toString()
+                    cdTvm.text =
+                        "↑ " + caseResponse.kerala.districtData.thiruvananthapuram.delta.confirmed.toString()
+                    rdTvm.text =
+                        "↑ " + caseResponse.kerala.districtData.thiruvananthapuram.delta.recovered.toString()
+                    ddTvm.text =
+                        "↑ " + caseResponse.kerala.districtData.thiruvananthapuram.delta.deceased.toString()
 
+                    cKlm.text =
+                        caseResponse.kerala.districtData.kollam.confirmed.toString()
+                    aKlm.text =
+                        caseResponse.kerala.districtData.kollam.active.toString()
+                    rKlm.text =
+                        caseResponse.kerala.districtData.kollam.recovered.toString()
+                    dKlm.text =
+                        caseResponse.kerala.districtData.kollam.deceased.toString()
+                    cdKlm.text =
+                        "↑ " + caseResponse.kerala.districtData.kollam.delta.confirmed.toString()
+                    rdKlm.text =
+                        "↑ " + caseResponse.kerala.districtData.kollam.delta.recovered.toString()
+                    ddKlm.text =
+                        "↑ " + caseResponse.kerala.districtData.kollam.delta.deceased.toString()
+
+                    cAlp.text =
+                        caseResponse.kerala.districtData.alappuzha.confirmed.toString()
+                    aAlp.text =
+                        caseResponse.kerala.districtData.alappuzha.active.toString()
+                    rAlp.text =
+                        caseResponse.kerala.districtData.alappuzha.recovered.toString()
+                    dAlp.text =
+                        caseResponse.kerala.districtData.alappuzha.deceased.toString()
+                    cdAlp.text =
+                        "↑ " + caseResponse.kerala.districtData.alappuzha.delta.confirmed.toString()
+                    rdAlp.text =
+                        "↑ " + caseResponse.kerala.districtData.alappuzha.delta.recovered.toString()
+                    ddAlp.text =
+                        "↑ " + caseResponse.kerala.districtData.alappuzha.delta.deceased.toString()
+
+                    cPtm.text =
+                        caseResponse.kerala.districtData.pathanamthitta.confirmed.toString()
+                    aPtm.text =
+                        caseResponse.kerala.districtData.pathanamthitta.active.toString()
+                    rPtm.text =
+                        caseResponse.kerala.districtData.pathanamthitta.recovered.toString()
+                    dPtm.text =
+                        caseResponse.kerala.districtData.pathanamthitta.deceased.toString()
+                    cdPtm.text =
+                        "↑ " + caseResponse.kerala.districtData.pathanamthitta.delta.confirmed.toString()
+                    rdPtm.text =
+                        "↑ " + caseResponse.kerala.districtData.pathanamthitta.delta.recovered.toString()
+                    ddPtm.text =
+                        "↑ " + caseResponse.kerala.districtData.pathanamthitta.delta.deceased.toString()
+
+                    cKtm.text =
+                        caseResponse.kerala.districtData.kottayam.confirmed.toString()
+                    aKtm.text =
+                        caseResponse.kerala.districtData.kottayam.active.toString()
+                    rKtm.text =
+                        caseResponse.kerala.districtData.kottayam.recovered.toString()
+                    dKtm.text =
+                        caseResponse.kerala.districtData.kottayam.deceased.toString()
+                    cdKtm.text =
+                        "↑ " + caseResponse.kerala.districtData.kottayam.delta.confirmed.toString()
+                    rdKtm.text =
+                        "↑ " + caseResponse.kerala.districtData.kottayam.delta.recovered.toString()
+                    ddKtm.text =
+                        "↑ " + caseResponse.kerala.districtData.kottayam.delta.deceased.toString()
+
+                    cIdk.text =
+                        caseResponse.kerala.districtData.kottayam.confirmed.toString()
+                    aIdk.text =
+                        caseResponse.kerala.districtData.kottayam.active.toString()
+                    rIdk.text =
+                        caseResponse.kerala.districtData.kottayam.recovered.toString()
+                    dIdk.text =
+                        caseResponse.kerala.districtData.kottayam.deceased.toString()
+                    cdIdk.text =
+                        "↑ " + caseResponse.kerala.districtData.kottayam.delta.confirmed.toString()
+                    rdIdk.text =
+                        "↑ " + caseResponse.kerala.districtData.kottayam.delta.recovered.toString()
+                    ddIdk.text =
+                        "↑ " + caseResponse.kerala.districtData.kottayam.delta.deceased.toString()
 
                 }
             })
