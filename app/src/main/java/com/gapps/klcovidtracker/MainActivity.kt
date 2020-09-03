@@ -10,6 +10,7 @@ import com.gapps.klcovidtracker.model.CaseResponse
 import com.github.javiersantos.appupdater.AppUpdater
 import com.github.javiersantos.appupdater.enums.Display
 import com.github.javiersantos.appupdater.enums.UpdateFrom
+import com.google.firebase.database.*
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
@@ -27,20 +28,36 @@ import java.io.File
 
 class MainActivity : AppCompatActivity() {
 
+    lateinit var mDatabase: DatabaseReference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        AppUpdater(this)
-            .setDisplay(Display.DIALOG)
-            .setUpdateFrom(UpdateFrom.GITHUB)
-            .setGitHubUserAndRepo("georgemani1225", "KLCovidTracker")
-            .setTitleOnUpdateAvailable("New Update Available!")
-            .setContentOnUpdateAvailable("Check out the latest version available of app!")
-            .setButtonUpdate("Update")
-            .setButtonDismiss("Later")
-            .setButtonDoNotShowAgain("")
-            .start()
+        mDatabase = FirebaseDatabase.getInstance().reference.child("applink")
+
+
+        mDatabase.addValueEventListener(object : ValueEventListener {
+            override fun onCancelled(p0: DatabaseError) {
+
+            }
+
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+               val appUpdateLink = dataSnapshot.getValue().toString()
+                AppUpdater(this@MainActivity)
+                    .setDisplay(Display.DIALOG)
+                    .setUpdateFrom(UpdateFrom.GITHUB)
+                    .setGitHubUserAndRepo("georgemani1225", appUpdateLink)
+                    .setTitleOnUpdateAvailable("New Update Available!")
+                    .setContentOnUpdateAvailable("Check out the latest version available of app!")
+                    .setButtonUpdate("Update")
+                    .setButtonDismiss("Later")
+                    .setButtonDoNotShowAgain("")
+                    .start()
+            }
+        })
+
+
 
         val request = Request.Builder()
             .url("https://api.covid19india.org/data.json")
