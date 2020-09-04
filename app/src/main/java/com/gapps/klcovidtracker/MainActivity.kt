@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         AppUpdater(this)
             .setDisplay(Display.DIALOG)
             .setUpdateFrom(UpdateFrom.JSON)
-            .setUpdateJSON("")
+            .setUpdateJSON("https://raw.githubusercontent.com/georgemani1225/KLCovidTracker/master/app/update-changelog.json")
             .setTitleOnUpdateAvailable("New Update Available!")
             .setContentOnUpdateAvailable("Check out the latest version available of app!")
             .setButtonUpdate("Update")
