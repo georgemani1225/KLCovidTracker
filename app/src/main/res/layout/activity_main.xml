@@ -53,11 +53,19 @@
                     android:src="@drawable/confirmed" />
 
                 <TextView
-                    android:id="@+id/confirmedTv"
+                    android:id="@+id/dconfirmedTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-20dp"
-                    android:fontFamily="@font/fira_mono_medium"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/confirmedTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:textColor="@color/dark_red"
                     android:textSize="18sp"
@@ -88,11 +96,19 @@
                     android:src="@drawable/active" />
 
                 <TextView
-                    android:id="@+id/activeTv"
+                    android:id="@+id/dactiveTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-20dp"
-                    android:fontFamily="@font/fira_mono_medium"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/activeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:textColor="@color/dark_blue"
                     android:textSize="18sp"
@@ -132,11 +148,19 @@
                     android:src="@drawable/recovered" />
 
                 <TextView
-                    android:id="@+id/recoveredTv"
+                    android:id="@+id/drecoveredTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-20dp"
-                    android:fontFamily="@font/fira_mono_medium"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_green"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recoveredTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:textColor="@color/dark_green"
                     android:textSize="18sp"
@@ -168,11 +192,17 @@
                     android:src="@drawable/ic_deceased" />
 
                 <TextView
-                    android:id="@+id/deceasedTv"
+                    android:id="@+id/ddeceasedTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-20dp"
-                    android:fontFamily="@font/fira_mono_medium"
+                    android:textAllCaps="true"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/deceasedTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -243,7 +273,6 @@
                             android:layout_below="@+id/txtcTvm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -255,7 +284,6 @@
                             android:layout_below="@+id/cdTvm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -280,7 +308,6 @@
                             android:layout_below="@+id/txtrTvm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -291,7 +318,6 @@
                             android:layout_below="@+id/rdTvm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -318,7 +344,6 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTvm"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -330,7 +355,6 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="60dp"
                             android:layout_toRightOf="@+id/txtTvm"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -357,7 +381,6 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTvm"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textSize="15sp" />
 
 
@@ -369,7 +392,6 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTvm"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -424,7 +446,6 @@
                             android:layout_below="@+id/txtcKlm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -436,7 +457,7 @@
                             android:layout_below="@+id/cdKlm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -461,7 +482,7 @@
                             android:layout_below="@+id/txtrKlm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -472,7 +493,7 @@
                             android:layout_below="@+id/rdKlm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -499,7 +520,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKlm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -511,7 +532,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKlm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -537,7 +558,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKlm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -549,7 +570,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKlm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -604,7 +625,7 @@
                             android:layout_below="@+id/txtcAlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -616,7 +637,7 @@
                             android:layout_below="@+id/cdAlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -641,7 +662,7 @@
                             android:layout_below="@+id/txtrAlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -652,7 +673,7 @@
                             android:layout_below="@+id/rdAlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -679,7 +700,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcAlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -691,7 +712,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcAlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -717,7 +738,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcAlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -729,7 +750,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcAlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -784,7 +805,7 @@
                             android:layout_below="@+id/txtcPtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -796,7 +817,7 @@
                             android:layout_below="@+id/cdPtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -821,7 +842,7 @@
                             android:layout_below="@+id/txtrPtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -832,7 +853,7 @@
                             android:layout_below="@+id/rdPtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -859,7 +880,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -871,7 +892,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -897,7 +918,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -909,7 +930,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -964,7 +985,7 @@
                             android:layout_below="@+id/txtcKtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -976,7 +997,7 @@
                             android:layout_below="@+id/cdKtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1001,7 +1022,7 @@
                             android:layout_below="@+id/txtrKtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -1012,7 +1033,7 @@
                             android:layout_below="@+id/rdKtm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1039,7 +1060,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1051,7 +1072,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -1077,7 +1098,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -1089,7 +1110,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKtm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1144,7 +1165,7 @@
                             android:layout_below="@+id/txtcIdk"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -1156,7 +1177,7 @@
                             android:layout_below="@+id/cdIdk"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1181,7 +1202,7 @@
                             android:layout_below="@+id/txtrIdk"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -1192,7 +1213,7 @@
                             android:layout_below="@+id/rdIdk"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1219,7 +1240,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcIdk"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1231,7 +1252,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcIdk"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -1257,7 +1278,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcIdk"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -1269,7 +1290,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcIdk"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1324,7 +1345,7 @@
                             android:layout_below="@+id/txtcEkm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -1336,7 +1357,7 @@
                             android:layout_below="@+id/cdEkm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1361,7 +1382,7 @@
                             android:layout_below="@+id/txtrEkm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -1372,7 +1393,7 @@
                             android:layout_below="@+id/rdEkm"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1399,7 +1420,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcEkm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1411,7 +1432,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcEkm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -1437,7 +1458,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcEkm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -1449,7 +1470,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcEkm"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1504,7 +1525,7 @@
                             android:layout_below="@+id/txtcTrs"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -1516,7 +1537,7 @@
                             android:layout_below="@+id/cdTrs"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1541,7 +1562,7 @@
                             android:layout_below="@+id/txtrTrs"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -1552,7 +1573,7 @@
                             android:layout_below="@+id/rdTrs"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1579,7 +1600,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTrs"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1591,7 +1612,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTrs"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -1617,7 +1638,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTrs"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -1629,7 +1650,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcTrs"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1684,7 +1705,7 @@
                             android:layout_below="@+id/txtcPkd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -1696,7 +1717,7 @@
                             android:layout_below="@+id/cdPkd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1721,7 +1742,7 @@
                             android:layout_below="@+id/txtrPkd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -1732,7 +1753,7 @@
                             android:layout_below="@+id/rdPkd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1759,7 +1780,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPkd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1771,7 +1792,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPkd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -1797,7 +1818,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPkd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -1809,7 +1830,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcPkd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1864,7 +1885,7 @@
                             android:layout_below="@+id/txtcMlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -1876,7 +1897,7 @@
                             android:layout_below="@+id/cdMlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1901,7 +1922,7 @@
                             android:layout_below="@+id/txtrMlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -1912,7 +1933,7 @@
                             android:layout_below="@+id/rdMlp"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1939,7 +1960,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcMlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -1951,7 +1972,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcMlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -1977,7 +1998,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcMlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -1989,7 +2010,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcMlp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2044,7 +2065,7 @@
                             android:layout_below="@+id/txtcKzd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -2056,7 +2077,7 @@
                             android:layout_below="@+id/cdKzd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2081,7 +2102,7 @@
                             android:layout_below="@+id/txtrKzd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -2092,7 +2113,7 @@
                             android:layout_below="@+id/rdKzd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2119,7 +2140,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKzd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2131,7 +2152,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKzd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -2157,7 +2178,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKzd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -2169,7 +2190,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKzd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2224,7 +2245,7 @@
                             android:layout_below="@+id/txtcWnd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -2236,7 +2257,7 @@
                             android:layout_below="@+id/cdWnd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2261,7 +2282,7 @@
                             android:layout_below="@+id/txtrWnd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -2272,7 +2293,7 @@
                             android:layout_below="@+id/rdWnd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2299,7 +2320,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcWnd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2311,7 +2332,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcWnd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -2337,7 +2358,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcWnd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -2349,7 +2370,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcWnd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2404,7 +2425,7 @@
                             android:layout_below="@+id/txtcKnr"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -2416,7 +2437,7 @@
                             android:layout_below="@+id/cdKnr"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2441,7 +2462,7 @@
                             android:layout_below="@+id/txtrKnr"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -2452,7 +2473,7 @@
                             android:layout_below="@+id/rdKnr"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2479,7 +2500,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKnr"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2491,7 +2512,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKnr"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -2517,7 +2538,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKnr"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -2529,7 +2550,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKnr"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2584,7 +2605,7 @@
                             android:layout_below="@+id/txtcKsd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_red"
                             android:textSize="15sp" />
 
@@ -2596,7 +2617,7 @@
                             android:layout_below="@+id/cdKsd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2621,7 +2642,7 @@
                             android:layout_below="@+id/txtrKsd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_green"
                             android:textSize="15sp" />
 
@@ -2632,7 +2653,7 @@
                             android:layout_below="@+id/rdKsd"
                             android:layout_gravity="start"
                             android:layout_marginLeft="40dp"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2659,7 +2680,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKsd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 
@@ -2671,7 +2692,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKsd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textColor="@color/dark_blue"
                             android:textSize="15sp" />
 
@@ -2697,7 +2718,7 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKsd"
-                            android:fontFamily="@font/fira_mono_medium"
+
                             android:textSize="15sp" />
 
 
@@ -2709,7 +2730,6 @@
                             android:layout_gravity="start"
                             android:layout_marginLeft="110dp"
                             android:layout_toRightOf="@+id/txtcKsd"
-                            android:fontFamily="@font/fira_mono_medium"
                             android:textColor="@android:color/black"
                             android:textSize="16sp" />
 

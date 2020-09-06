@@ -61,7 +61,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
         val retrofit = Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl("https://api.covid19india.org/")
@@ -302,6 +301,9 @@ class MainActivity : AppCompatActivity() {
         activeTv.text = statewiseItem.active
         deceasedTv.text = statewiseItem.deaths
         recoveredTv.text = statewiseItem.recovered
+        dconfirmedTv.text = "↑ "+ statewiseItem.deltaconfirmed
+        drecoveredTv.text = "↑ "+ statewiseItem.deltarecovered
+        ddeceasedTv.text = "↑ "+ statewiseItem.deltadeaths
 
     }
 }
