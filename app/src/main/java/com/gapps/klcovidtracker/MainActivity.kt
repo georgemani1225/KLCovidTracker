@@ -1,11 +1,16 @@
 package com.gapps.klcovidtracker
 
+import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
+import android.provider.CalendarContract
 import android.util.Log
+import android.widget.PopupMenu
 import android.widget.TextView
+import android.widget.Toast
 import com.gapps.klcovidtracker.model.CaseResponse
 import com.github.javiersantos.appupdater.AppUpdater
 import com.github.javiersantos.appupdater.enums.Display
@@ -43,6 +48,27 @@ class MainActivity : AppCompatActivity() {
             .setButtonDoNotShowAgain("")
             .start()
 
+        swipeToRefresh.setOnRefreshListener {
+            swipeToRefresh.setColorSchemeResources(R.color.dark_green)
+            swipeToRefresh.isRefreshing = false
+        }
+
+        menubutton.setOnClickListener {
+            val popupMenu = PopupMenu(this, it)
+            popupMenu.setOnMenuItemClickListener { item ->
+                when(item.itemId){
+                    R.id.menu_feedback -> {
+                        val intent = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "georgemani1225@gmail.com", null))
+                        startActivity(intent)
+                        true
+                    }
+                    else -> false
+                }
+            }
+            popupMenu.inflate(R.menu.menu_main)
+            popupMenu.show()
+        }
+
         val request = Request.Builder()
             .url("https://api.covid19india.org/data.json")
             .build()
@@ -56,7 +82,7 @@ class MainActivity : AppCompatActivity() {
                 com.gapps.klcovidtracker.Response::class.java
             )
             launch(Dispatchers.Main) {
-                bindCombinedData(data?.statewise?.get(16)!!)
+                bindCombinedData(data?.statewise?.get(7)!!)
 
             }
         }
