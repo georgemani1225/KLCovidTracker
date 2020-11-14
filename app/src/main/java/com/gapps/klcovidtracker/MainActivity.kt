@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         AppUpdater(this)
             .setDisplay(Display.DIALOG)
             .setUpdateFrom(UpdateFrom.GITHUB)
-            .setGitHubUserAndRepo("georgemani1225","KLCovidTracker")
+            .setGitHubUserAndRepo("georgemani1225", "KLCovidTracker")
             .setTitleOnUpdateAvailable("New Update Available!")
             .setContentOnUpdateAvailable("Check out the latest version available of app!")
             .setButtonUpdate("Update")
@@ -56,9 +56,12 @@ class MainActivity : AppCompatActivity() {
         menubutton.setOnClickListener {
             val popupMenu = PopupMenu(this, it)
             popupMenu.setOnMenuItemClickListener { item ->
-                when(item.itemId){
+                when (item.itemId) {
                     R.id.menu_feedback -> {
-                        val intent = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "georgemani1225@gmail.com", null))
+                        val intent = Intent(
+                            Intent.ACTION_SENDTO,
+                            Uri.fromParts("mailto", "georgemani1225@gmail.com", null)
+                        )
                         startActivity(intent)
                         true
                     }
@@ -67,24 +70,6 @@ class MainActivity : AppCompatActivity() {
             }
             popupMenu.inflate(R.menu.menu_main)
             popupMenu.show()
-        }
-
-        val request = Request.Builder()
-            .url("https://api.covid19india.org/data.json")
-            .build()
-
-        val api = OkHttpClient().newCall(request)
-
-        GlobalScope.launch {
-            val tResponse = withContext(Dispatchers.IO) { api.execute() }
-            val data = Gson().fromJson(
-                tResponse.body?.string(),
-                com.gapps.klcovidtracker.Response::class.java
-            )
-            launch(Dispatchers.Main) {
-                bindCombinedData(data?.statewise?.get(7)!!)
-
-            }
         }
 
         val retrofit = Retrofit.Builder()
@@ -316,20 +301,24 @@ class MainActivity : AppCompatActivity() {
                     ddKsd.text =
                         "↑ " + caseResponse.kerala.districtData.kasaragod.delta.deceased.toString()
 
+                    confirmedTv.text =
+                        (caseResponse.kerala.districtData.thiruvananthapuram.confirmed + caseResponse.kerala.districtData.kollam.confirmed + caseResponse.kerala.districtData.alappuzha.confirmed + caseResponse.kerala.districtData.pathanamthitta.confirmed + caseResponse.kerala.districtData.kottayam.confirmed + caseResponse.kerala.districtData.idukki.confirmed + caseResponse.kerala.districtData.ernakulam.confirmed + caseResponse.kerala.districtData.thrissur.confirmed + caseResponse.kerala.districtData.palakkad.confirmed + caseResponse.kerala.districtData.malappuram.confirmed + caseResponse.kerala.districtData.kozhikode.confirmed + caseResponse.kerala.districtData.wayanad.confirmed + caseResponse.kerala.districtData.kannur.confirmed + caseResponse.kerala.districtData.kasaragod.confirmed).toString()
+                    activeTv.text =
+                        (caseResponse.kerala.districtData.thiruvananthapuram.active + caseResponse.kerala.districtData.kollam.active + caseResponse.kerala.districtData.alappuzha.active + caseResponse.kerala.districtData.pathanamthitta.active + caseResponse.kerala.districtData.kottayam.active + caseResponse.kerala.districtData.idukki.active + caseResponse.kerala.districtData.ernakulam.active + caseResponse.kerala.districtData.thrissur.active + caseResponse.kerala.districtData.palakkad.active + caseResponse.kerala.districtData.malappuram.active + caseResponse.kerala.districtData.kozhikode.active + caseResponse.kerala.districtData.wayanad.active + caseResponse.kerala.districtData.kannur.active + caseResponse.kerala.districtData.kasaragod.active).toString()
+                    recoveredTv.text =
+                        (caseResponse.kerala.districtData.thiruvananthapuram.recovered + caseResponse.kerala.districtData.kollam.recovered + caseResponse.kerala.districtData.alappuzha.recovered + caseResponse.kerala.districtData.pathanamthitta.recovered + caseResponse.kerala.districtData.kottayam.recovered + caseResponse.kerala.districtData.idukki.recovered + caseResponse.kerala.districtData.ernakulam.recovered + caseResponse.kerala.districtData.thrissur.recovered + caseResponse.kerala.districtData.palakkad.recovered + caseResponse.kerala.districtData.malappuram.recovered + caseResponse.kerala.districtData.kozhikode.recovered + caseResponse.kerala.districtData.wayanad.recovered + caseResponse.kerala.districtData.kannur.recovered + caseResponse.kerala.districtData.kasaragod.recovered).toString()
+                    deceasedTv.text =
+                        (caseResponse.kerala.districtData.thiruvananthapuram.deceased + caseResponse.kerala.districtData.kollam.deceased + caseResponse.kerala.districtData.alappuzha.deceased + caseResponse.kerala.districtData.pathanamthitta.deceased + caseResponse.kerala.districtData.kottayam.deceased + caseResponse.kerala.districtData.idukki.deceased + caseResponse.kerala.districtData.ernakulam.deceased + caseResponse.kerala.districtData.thrissur.deceased + caseResponse.kerala.districtData.palakkad.deceased + caseResponse.kerala.districtData.malappuram.deceased + caseResponse.kerala.districtData.kozhikode.deceased + caseResponse.kerala.districtData.wayanad.deceased + caseResponse.kerala.districtData.kannur.deceased + caseResponse.kerala.districtData.kasaragod.deceased).toString()
+
+                    dconfirmedTv.text =
+                        "↑ " + (caseResponse.kerala.districtData.thiruvananthapuram.delta.confirmed + caseResponse.kerala.districtData.kollam.delta.confirmed + caseResponse.kerala.districtData.alappuzha.delta.confirmed + caseResponse.kerala.districtData.pathanamthitta.delta.confirmed + caseResponse.kerala.districtData.kottayam.delta.confirmed + caseResponse.kerala.districtData.idukki.delta.confirmed + caseResponse.kerala.districtData.ernakulam.delta.confirmed + caseResponse.kerala.districtData.thrissur.delta.confirmed + caseResponse.kerala.districtData.palakkad.delta.confirmed + caseResponse.kerala.districtData.malappuram.delta.confirmed + caseResponse.kerala.districtData.kozhikode.delta.confirmed + caseResponse.kerala.districtData.wayanad.delta.confirmed + caseResponse.kerala.districtData.kannur.delta.confirmed + caseResponse.kerala.districtData.kasaragod.delta.confirmed).toString()
+                    drecoveredTv.text =
+                        "↑ " + (caseResponse.kerala.districtData.thiruvananthapuram.delta.recovered + caseResponse.kerala.districtData.kollam.delta.recovered + caseResponse.kerala.districtData.alappuzha.delta.recovered + caseResponse.kerala.districtData.pathanamthitta.delta.recovered + caseResponse.kerala.districtData.kottayam.delta.recovered + caseResponse.kerala.districtData.idukki.delta.recovered + caseResponse.kerala.districtData.ernakulam.delta.recovered + caseResponse.kerala.districtData.thrissur.delta.recovered + caseResponse.kerala.districtData.palakkad.delta.recovered + caseResponse.kerala.districtData.malappuram.delta.recovered + caseResponse.kerala.districtData.kozhikode.delta.recovered + caseResponse.kerala.districtData.wayanad.delta.recovered + caseResponse.kerala.districtData.kannur.delta.recovered + caseResponse.kerala.districtData.kasaragod.delta.recovered).toString()
+                    ddeceasedTv.text =
+                        "↑ " + (caseResponse.kerala.districtData.thiruvananthapuram.delta.deceased + caseResponse.kerala.districtData.kollam.delta.deceased + caseResponse.kerala.districtData.alappuzha.delta.deceased + caseResponse.kerala.districtData.pathanamthitta.delta.deceased + caseResponse.kerala.districtData.kottayam.delta.deceased + caseResponse.kerala.districtData.idukki.delta.deceased + caseResponse.kerala.districtData.ernakulam.delta.deceased + caseResponse.kerala.districtData.thrissur.delta.deceased + caseResponse.kerala.districtData.palakkad.delta.deceased + caseResponse.kerala.districtData.malappuram.delta.deceased + caseResponse.kerala.districtData.kozhikode.delta.deceased + caseResponse.kerala.districtData.wayanad.delta.deceased + caseResponse.kerala.districtData.kannur.delta.deceased + caseResponse.kerala.districtData.kasaragod.delta.deceased).toString()
 
                 }
             })
-
-    }
-
-    private fun bindCombinedData(statewiseItem: StatewiseItem) {
-        confirmedTv.text = statewiseItem.confirmed
-        activeTv.text = statewiseItem.active
-        deceasedTv.text = statewiseItem.deaths
-        recoveredTv.text = statewiseItem.recovered
-        dconfirmedTv.text = "↑ "+ statewiseItem.deltaconfirmed
-        drecoveredTv.text = "↑ "+ statewiseItem.deltarecovered
-        ddeceasedTv.text = "↑ "+ statewiseItem.deltadeaths
 
     }
 }
